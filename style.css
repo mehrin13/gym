@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    transition: 0.8ms;
+    scroll-behavior: smooth;
+}
+
+/* menubar style start  */
+.menubar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item li {
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+}
